@@ -1,1 +1,16 @@
-
+<html>
+<head>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    
+    <h1>Animations</h1>
+    <div>
+    <p>
+        If you were interested in making an animation that takes you from one bar graph to another you could do so. Assuming you have already created an initial graph,you want to update the data you are using to contain the values that will appear in the new graph. Once you have changed the data you need to bind it to existing elements. With the data values now updated you simply need to update the heights and y-postions of the bars in the graph to reflect the new data. All of this can be done in a function that is called using .on click. At this point on a click the new graph will appear instantly and not be animated. To make a transition that appears animated you can use d3.transition(). This is all you will need, d3 is able to recognize the beginning and ending values and then interpolate new values between them as time passes. You can further customize the transition by using .duration to set how long the animation will take. There are many other details you can add to your visualizations, these include a hover effect which can be an effective way of allowing the user to highlight certain information, this is done using CSS. To reach the same effect using javascript you need to use on mouseover which does essentially the same thing as a hover but you will also need to pair that with an on mouseout this will ensure that change is only applied to one element and once that element is no longer selected it will revert back to its original state, or any other state depending on what you specify. Transitions can also be applied when you mouseover an element. If you are transitioning between two colors d3 is able to interpolate the rgb values between the beginning and ending values. These are some of the many ways in which you can give your visualizations some kind of animation to make them more interesting, and insightful. 
+    </p>   
+    </div>
+    
+    
+</body>
+</html>
